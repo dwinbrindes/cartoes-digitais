@@ -41,7 +41,6 @@ body{
     z-index:10;
 }
 
-/* TELEFONE / WHATSAPP */
 .telefone{
     left:8%;
     top:48%;
@@ -49,15 +48,13 @@ body{
     height:4%;
 }
 
-/* EMAIL */
 .email{
     left:8%;
     top:56%;
-    width:50%;
+    width:52%;
     height:4%;
 }
 
-/* ENDEREÇO */
 .endereco{
     left:8%;
     top:65%;
@@ -65,19 +62,17 @@ body{
     height:5%;
 }
 
-/* SITE */
 .site{
-    left:10%;
-    top:83%;
-    width:32%;
+    left:8%;
+    top:82%;
+    width:28%;
     height:4%;
 }
 
-/* INSTAGRAM */
 .instagram{
-    left:47%;
-    top:83%;
-    width:36%;
+    left:43%;
+    top:82%;
+    width:35%;
     height:4%;
 }
 
@@ -89,14 +84,13 @@ body{
 }
 
 .botao{
-    background:#4f8fd3;
-    color:white;
+    background:#5d90cf;
+    color:#fff;
     text-decoration:none;
     text-align:center;
     padding:16px;
     border-radius:12px;
     font-weight:bold;
-    transition:.2s;
 }
 
 .botao:hover{
@@ -112,33 +106,32 @@ body{
 
     <div class="cartao">
 
+        <!-- FRENTE -->
         <img src="cartao-1.png" alt="Cartão Frente">
 
+        <!-- VERSO -->
         <div class="cartao-verso">
 
             <img src="cartao-2.png" alt="Cartão Verso">
 
             <a class="area telefone"
                href="https://wa.me/554130821179"
-               aria-label="WhatsApp"></a>
+               target="_blank"></a>
 
             <a class="area email"
-               href="mailto:comercial5@papapa.com.br"
-               aria-label="Email"></a>
+               href="mailto:comercial5@papapa.com.br"></a>
 
             <a class="area endereco"
-               href="https://www.google.com/maps/search/?api=1&query=Rua+Gra+Nico+113+Sala+501+Mossungue+Curitiba+PR"
-               aria-label="Endereço"></a>
+               href="https://maps.google.com/?q=Rua+Gra+Nico+113+Sala+501+Curitiba"
+               target="_blank"></a>
 
             <a class="area site"
                href="https://papapa.com.br"
-               target="_blank"
-               aria-label="Site"></a>
+               target="_blank"></a>
 
             <a class="area instagram"
                href="https://instagram.com/papapa.com.br"
-               target="_blank"
-               aria-label="Instagram"></a>
+               target="_blank"></a>
 
         </div>
 
@@ -147,7 +140,8 @@ body{
     <div class="botoes">
 
         <a class="botao"
-           href="https://wa.me/554130821179">
+           href="https://wa.me/554130821179"
+           target="_blank">
             WhatsApp
         </a>
 
@@ -176,6 +170,12 @@ body{
         <a class="botao"
            href="contato.vcf">
             Salvar Contato
+        </a>
+
+        <a class="botao"
+           href="cartao.pdf"
+           target="_blank">
+            Ver PDF
         </a>
 
     </div>

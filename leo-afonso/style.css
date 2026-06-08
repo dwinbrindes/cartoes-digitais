@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, #eaf7ff 0%, #ffffff 100%);
+  color: #27618f;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px 14px;
+}
+
+.card {
+  width: 100%;
+  max-width: 430px;
+  background: #ffffff;
+  border-radius: 26px;
+  padding: 18px;
+  box-shadow: 0 10px 35px rgba(39, 97, 143, 0.18);
+  text-align: center;
+}
+
+.business-card {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  font-size: 30px;
+  margin: 16px 0 4px;
+  color: #27618f;
+}
+
+.role,
+.company {
+  margin: 4px 0;
+  font-size: 17px;
+  color: #4c8fc1;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 15px 16px;
+  margin: 10px 0;
+  border-radius: 14px;
+  background: #5b95c8;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn.primary {
+  background: #11a8d1;
+}
+
+.btn.subtle {
+  background: #eef7fc;
+  color: #27618f;
+}
+
+.btn:hover {
+  opacity: 0.88;
+}

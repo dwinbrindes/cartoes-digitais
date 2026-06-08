@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipe Papapá</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#f5f7fa;
+    font-family:Arial,sans-serif;
+}
+
+.container{
+    max-width:600px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.logo h1{
+    color:#4f8fd3;
+    margin:0;
+}
+
+.logo p{
+    color:#666;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+    transition:.2s;
+}
+
+.card:hover{
+    transform:translateY(-2px);
+}
+
+.card a{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.nome{
+    font-size:20px;
+    font-weight:bold;
+    color:#4f8fd3;
+}
+
+.cargo{
+    margin-top:5px;
+    color:#666;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+        <h1>Papapá</h1>
+        <p>Cartões Digitais da Equipe Comercial</p>
+    </div>
+
+    <div class="card">
+        <a href="/leo-afonso/">
+            <div class="nome">Leonardo Afonso</div>
+            <div class="cargo">Diretor Presidente</div>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/ana-christina/">
+            <div class="nome">Ana Christina</div>
+            <div class="cargo">Analista de Inside Sales</div>
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

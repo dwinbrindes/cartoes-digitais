@@ -1,4 +1,4 @@
-<html><body>Leonardo Afonso</body></html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -6,10 +6,11 @@
 <title>Leonardo Afonso | Papapá</title>
 
 <style>
+
 body{
     margin:0;
     background:#f5f7fa;
-    font-family:Arial,sans-serif;
+    font-family:Arial, sans-serif;
 }
 
 .container{
@@ -28,6 +29,51 @@ body{
 .cartao img{
     width:100%;
     display:block;
+}
+
+.cartao-verso{
+    position:relative;
+}
+
+.area{
+    position:absolute;
+    display:block;
+    z-index:10;
+}
+
+.telefone{
+    left:8%;
+    top:48%;
+    width:35%;
+    height:4%;
+}
+
+.email{
+    left:8%;
+    top:56%;
+    width:52%;
+    height:4%;
+}
+
+.endereco{
+    left:8%;
+    top:65%;
+    width:83%;
+    height:5%;
+}
+
+.site{
+    left:8%;
+    top:82%;
+    width:28%;
+    height:4%;
+}
+
+.instagram{
+    left:43%;
+    top:82%;
+    width:35%;
+    height:4%;
 }
 
 .botoes{
@@ -50,6 +96,7 @@ body{
 .botao:hover{
     opacity:.9;
 }
+
 </style>
 </head>
 
@@ -58,8 +105,35 @@ body{
 <div class="container">
 
     <div class="cartao">
-        <img src="cartao-1.png" alt="Cartão Papapá">
-        <img src="cartao-2.png" alt="Dados de Contato">
+
+        <!-- FRENTE -->
+        <img src="cartao-2.png" alt="Cartão Frente">
+
+        <!-- VERSO -->
+        <div class="cartao-verso">
+
+            <img src="cartao-1.png" alt="Cartão Verso">
+
+            <a class="area telefone"
+               href="tel:+554199038157"></a>
+
+            <a class="area email"
+               href="mailto:leonardo@papapa.com.br"></a>
+
+            <a class="area endereco"
+               href="https://maps.google.com/?q=Rua+Gra+Nico+113+Sala+501+Curitiba"
+               target="_blank"></a>
+
+            <a class="area site"
+               href="https://papapa.com.br"
+               target="_blank"></a>
+
+            <a class="area instagram"
+               href="https://instagram.com/papapa.com.br"
+               target="_blank"></a>
+
+        </div>
+
     </div>
 
     <div class="botoes">

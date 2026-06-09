@@ -6,19 +6,21 @@
 <title>João Paulo Ferreira | Papapá</title>
 
 <style>
+
 body{
     margin:0;
     background:#f5f7fa;
-    font-family:Arial,sans-serif;
+    font-family:Arial, sans-serif;
 }
 
 .container{
-    max-width:520px;
+    max-width:500px;
     margin:20px auto;
     padding:15px;
 }
 
 .cartao{
+    width:100%;
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 5px 20px rgba(0,0,0,.15);
@@ -29,9 +31,49 @@ body{
     display:block;
 }
 
-.cartao-link{
+.cartao-verso{
+    position:relative;
+}
+
+.area{
+    position:absolute;
     display:block;
-    text-decoration:none;
+    z-index:10;
+}
+
+.telefone{
+    left:8%;
+    top:48%;
+    width:35%;
+    height:4%;
+}
+
+.email{
+    left:8%;
+    top:56%;
+    width:52%;
+    height:4%;
+}
+
+.endereco{
+    left:8%;
+    top:65%;
+    width:83%;
+    height:5%;
+}
+
+.site{
+    left:8%;
+    top:82%;
+    width:28%;
+    height:4%;
+}
+
+.instagram{
+    left:43%;
+    top:82%;
+    width:35%;
+    height:4%;
 }
 
 .botoes{
@@ -54,6 +96,7 @@ body{
 .botao:hover{
     opacity:.9;
 }
+
 </style>
 </head>
 
@@ -61,12 +104,38 @@ body{
 
 <div class="container">
 
-    <a href="contato.vcf" class="cartao-link">
-        <div class="cartao">
-            <img src="cartao-1.png" alt="Frente">
-            <img src="cartao-2.png" alt="Verso">
+    <div class="cartao">
+
+        <!-- FRENTE -->
+        <img src="cartao-1.png" alt="Cartão Frente">
+
+        <!-- VERSO -->
+        <div class="cartao-verso">
+
+            <img src="cartao-2.png" alt="Cartão Verso">
+
+            <a class="area telefone"
+               href="https://wa.me/554192474213"
+               target="_blank"></a>
+
+            <a class="area email"
+               href="mailto:comercial2@papapa.com.br"></a>
+
+            <a class="area endereco"
+               href="https://maps.google.com/?q=Rua+Gra+Nico+113+Sala+501+Curitiba"
+               target="_blank"></a>
+
+            <a class="area site"
+               href="https://papapa.com.br"
+               target="_blank"></a>
+
+            <a class="area instagram"
+               href="https://instagram.com/papapa.com.br"
+               target="_blank"></a>
+
         </div>
-    </a>
+
+    </div>
 
     <div class="botoes">
 
